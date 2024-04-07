@@ -1,0 +1,557 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon.ico' %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'wellness/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'wellness/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'wellness/css/owl.theme.default.min.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'wellness/css/style.css' %}">
+
+    <title>Moribo</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+
+    <!-- TOP NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Moribo Financial Wellness<span class="dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="btn btn-brand ms-lg-3">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="owl-carousel owl-theme hero-slider">
+        <div class="slide slide1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <h1 class="display-3 my-4">We are driven by<br />Your success</h1>
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
+                        <h6 class="text-white text-uppercase">We craft digital experiances</h6>
+                        <h1 class="display-3 my-4">Design Driven For <br />Professionals</h1>
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 py-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="info-box">
+                                <img src="{% static 'wellness/img/pfwellness.jpeg' %}" alt="">
+                                <div class="ms-4">
+                                    <h5>Personal financial wellness Management</h5>
+                                    <p >It is a long established fact that a reader will be distracted by the readable content of a paged</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <div class="info-box">
+                                <img src="{% static 'wellness/img/debt.png' %}" alt="">
+                                <div class="ms-4">
+                                    <h5>Debt Management Services and Solutions</h5>
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <div class="info-box">
+                                <img src="{% static 'wellness/img/housing.png' %}" alt="">
+                                <div class="ms-4">
+                                    <h5>Housing and Homeowenership Assistance Programs</h5>
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="{% static 'wellness/img/mission2.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MILESTONE -->
+    <section id="milestone">
+        <div class="container">
+            <div class="row text-center justify-content-center gy-4">
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">90K+</h1>
+                    <p class="mb-0">Happy Clients</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">4500</h1>
+                    <p class="mb-0">Trainees</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">190</h1>
+                    <p class="mb-0">Total Downloads</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">380K</h1>
+                    <p class="mb-0">YouTube Subscribers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1>Our Services</h1>
+                        <h4>What We Do?</h4>
+                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <img src="" alt="">
+                        <h5>Digital Marketing</h5>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <img src="" alt="">
+                        <h5>Logo Designing</h5>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <img src="" alt="">
+                        <h5>Buisness consulting</h5>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <img src="" alt="">
+                        <h5>Videography</h5>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <img src="" alt="">
+                        <h5>Brand Identity</h5>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <img src="" alt="">
+                        <h5>Ethical Hacking</h5>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR WORK -->
+    <section class="bg-light" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1>Work</h1>
+                        <h4>Successfull Stories</h4>
+                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects-slider" class="owl-theme owl-carousel">
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="content">
+                    <h2>Consulting Marketing</h2>
+                    <h6>Website Design</h6>
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="content">
+                    <h2>Consulting Marketing</h2>
+                    <h6>Website Design</h6>
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="content">
+                    <h2>Consulting Marketing</h2>
+                    <h6>Website Design</h6>
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="content">
+                    <h2>Consulting Marketing</h2>
+                    <h6>Website Design</h6>
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="content">
+                    <h2>Consulting Marketing</h2>
+                    <h6>Website Design</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h6></h6>
+                        <h1>Our Team Of Experts</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8">
+                    <div class="team-member">
+                        <div class="image">
+                            <img src="{% static 'wellness/img/maud.jpg' %}" alt="Maud Mogodi">
+                            <div class="social-icons">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-pinterest'></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+
+                        <h5>Maud Mogodi</h5>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="team-member">
+                        <div class="image">
+                            <img src="{% static 'wellness/img/thabani.jpg' %}" alt="Thabani Mdletshe">
+                            <div class="social-icons">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-pinterest'></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+
+                        <h5>Thabani Mdletshe</h5>
+                        <p>COO</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="team-member">
+                        <div class="image">
+                            <img src="{% static 'wellness/img/tshidiso.png' %}" alt="Tshidiso Modikwe" width="250" height="300">
+                            <div class="social-icons">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-pinterest'></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+
+                        <h5>Tshidiso Modikwe</h5>
+                        <p>CTO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="bg-light" id="reviews">
+
+        <div class="owl-theme owl-carousel reviews-slider container">
+            <div class="review">
+                <div class="person">
+                    <img src="{% static 'wellness/img/maud.jpg' %}" alt="">
+                    <h5>Maud Mogodi</h5>
+                    <small>Director/Development Manager</small>
+                </div>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
+                    enim nam exercitationem optio ducimus!</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="{% static 'wellness/img/thabani.jpg' %}" alt="">
+                    <h5>Thabani Mdletshe</h5>
+                    <small>Chief Operations Officer</small>
+                </div>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
+                    enim nam exercitationem optio ducimus!</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="{% static 'wellness/img/tshidiso.png' %}" alt="">
+                    <h5>Thsidiso Modikwe</h5>
+                    <small>Chief Technology Officer</small>
+                </div>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
+                    enim nam exercitationem optio ducimus!</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINING -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1>Moribo Training</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <img src="" alt="">
+                        <a href="#" class="tag">Financial Wellness</a>
+                        <div class="content">
+                            <small>On going</small>
+                            <h5>Financial Wellness Fundementals</h5>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature fromThe "Financial Wellness Fundamentals Course" is designed to provide individuals with the essential knowledge 
+                                and skills needed to improve their financial well-being. </p>
+                        </div>                        
+                    </article>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <img src=" " alt="">
+                        <a href="#" class="tag">Debt Management</a>
+                        <div class="content">
+                            <small>Coming Soon</small>
+                            <h5>Debt Consolidation</h5>
+                            <p>The "Debt Management" course is designed to help individuals understand and effectively manage their debt. It covers a range of topics related to debt, 
+                                including types of debt, how to create a debt repayment plan, strategies for reducing debt, and ways to avoid future debt problems. The course aims to empower participants with the knowledge.</p>
+                        </div>
+                    </article>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <img src="" alt="">
+                        <a href="#" class="tag">Personal Finance Masterclass</a>
+                        <div class="content">
+                            <small>Coming Soon</small>
+                            <h5>Web Design trends in 2022</h5>
+                            <p>The "Personal Finance Masterclass" is a comprehensive course designed to help individuals manage their finances more effectively and make informed financial decisions.
+                                The course covers a wide range of topics related to personal finance, including budgeting, saving, investing, retirement planning, and wealth building.
+                            </p>
+                        </div>
+                    </article>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                        <div class="col-lg-4 col-sm-12 bg-cover"
+                            style="background-image: url(static/wellness/img/c2.jpg); min-height:300px;">
+                            <div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <form class="p-lg-5 col-12 row g-3">
+                                <div>
+                                    <h1>Get in touch</h1>
+                                    <p>Fell free to contact us and we will get back to you as soon as possible</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="userName" class="form-label">First name</label>
+                                    <input type="text" class="form-control" placeholder="Jon" id="userName"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="userName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" placeholder="Doe" id="userName"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-12">
+                                    <label for="userName" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" placeholder="Johndoe@example.com"
+                                        id="userName" aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1" class="form-label">Enter Message</label>
+                                    <textarea name="" placeholder="This is looking great and nice."
+                                        class="form-control" id="" rows="4"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-brand">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <div class="footer-top text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h4 class="navbar-brand">Moribo Financial wellness<span class="dot">.</span></h4>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from</p>
+                        <div class="col-auto social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-pinterest'></i></a>
+                        </div>
+                        <div class="col-auto conditions-section">
+                            <a href="#">privacy</a>
+                            <a href="#">terms</a>
+                            <a href="#">disclaimer</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p class="mb-0">Copyright vicpra 2022. All rights Reserved</p> Distributed By <a
+                hrefs="https://themewagon.com">ThemeWagon</a>
+        </div>
+    </footer>
+
+
+    
+
+
+
+
+    <script src="{% static 'wellness/js/jquery.min.js' %}"></script>
+    <script src="{% static 'wellness/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'wellness/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'wellness/js/app.js' %}"></script>
+</body>
+
+</html>
